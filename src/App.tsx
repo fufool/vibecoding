@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import Home from './components/Home'
+import HomePage from './pages/HomePage'
 import Login from './components/Login'
 import './App.css'
 
@@ -29,7 +29,7 @@ const App = () => {
         return <Login />
       case '/':
       default:
-        return <Home />
+        return <HomePage />
     }
   }
 
